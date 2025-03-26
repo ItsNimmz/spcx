@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-import main  # Import any Python logic you need to run
+from . import main  # If both are in the same package # Import any Python logic you need to run
 import database
 
 app = Flask(__name__)
