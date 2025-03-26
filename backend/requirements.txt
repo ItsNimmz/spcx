@@ -4,3 +4,4 @@ flask-cors
 gunicorn
 flask_mysqldb
 dotenv
+requests
